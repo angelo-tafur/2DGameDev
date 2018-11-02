@@ -1,0 +1,493 @@
+
+ninja.pack.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Dead_
+  rotate: false
+  xy: 2, 502
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 0
+Dead_
+  rotate: false
+  xy: 2, 2
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 1
+Dead_
+  rotate: false
+  xy: 486, 502
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 2
+Dead_
+  rotate: false
+  xy: 486, 2
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 3
+Kunai
+  rotate: false
+  xy: 970, 840
+  size: 32, 160
+  orig: 32, 160
+  offset: 0, 0
+  index: -1
+
+ninja.pack21.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Dead_
+  rotate: false
+  xy: 2, 502
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 4
+Dead_
+  rotate: false
+  xy: 2, 2
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 5
+Dead_
+  rotate: false
+  xy: 486, 502
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 6
+Dead_
+  rotate: false
+  xy: 486, 502
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 9
+Dead_
+  rotate: false
+  xy: 486, 502
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 8
+Dead_
+  rotate: false
+  xy: 486, 502
+  size: 482, 498
+  orig: 482, 498
+  offset: 0, 0
+  index: 7
+Jump000
+  rotate: false
+  xy: 486, 17
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+
+ninja.pack22.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Idle000
+  rotate: false
+  xy: 730, 531
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Idle001
+  rotate: false
+  xy: 730, 90
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Idle009
+  rotate: false
+  xy: 730, 90
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Jump001
+  rotate: false
+  xy: 2, 487
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+Jump002
+  rotate: false
+  xy: 2, 2
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+Jump003
+  rotate: false
+  xy: 366, 487
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+Jump004
+  rotate: false
+  xy: 366, 487
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+Jump005
+  rotate: false
+  xy: 366, 487
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+Jump006
+  rotate: false
+  xy: 366, 2
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+
+ninja.pack23.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Idle002
+  rotate: false
+  xy: 745, 531
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Idle008
+  rotate: false
+  xy: 745, 531
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Idle003
+  rotate: false
+  xy: 745, 90
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Idle007
+  rotate: false
+  xy: 745, 90
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Jump007
+  rotate: false
+  xy: 2, 487
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+Jump008
+  rotate: false
+  xy: 2, 2
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+Jump009
+  rotate: false
+  xy: 2, 2
+  size: 362, 483
+  orig: 362, 483
+  offset: 0, 0
+  index: -1
+Throw000
+  rotate: false
+  xy: 366, 519
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+Throw001
+  rotate: false
+  xy: 366, 66
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+
+ninja.pack24.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Idle004
+  rotate: false
+  xy: 760, 467
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Idle006
+  rotate: false
+  xy: 760, 467
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Idle005
+  rotate: false
+  xy: 760, 26
+  size: 232, 439
+  orig: 232, 439
+  offset: 0, 0
+  index: -1
+Throw002
+  rotate: false
+  xy: 2, 455
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+Throw003
+  rotate: false
+  xy: 2, 2
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+Throw004
+  rotate: false
+  xy: 381, 455
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+Throw005
+  rotate: false
+  xy: 381, 2
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+
+ninja.pack25.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Throw006
+  rotate: false
+  xy: 2, 455
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+Throw007
+  rotate: false
+  xy: 2, 2
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+Throw008
+  rotate: false
+  xy: 381, 455
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+Throw009
+  rotate: false
+  xy: 381, 2
+  size: 377, 451
+  orig: 377, 451
+  offset: 0, 0
+  index: -1
+
+ninja.pack26.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Run000
+  rotate: false
+  xy: 2, 462
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+Run001
+  rotate: false
+  xy: 2, 2
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+Run002
+  rotate: false
+  xy: 367, 462
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+Run003
+  rotate: false
+  xy: 367, 2
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+
+ninja.pack27.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Run004
+  rotate: false
+  xy: 2, 462
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+Run005
+  rotate: false
+  xy: 2, 2
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+Run006
+  rotate: false
+  xy: 367, 462
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+Run007
+  rotate: false
+  xy: 367, 2
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+
+ninja.pack28.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+JumpThrow0
+  rotate: false
+  xy: 367, 489
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+JumpThrow1
+  rotate: false
+  xy: 367, 56
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+Run008
+  rotate: false
+  xy: 2, 462
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+Run009
+  rotate: false
+  xy: 2, 2
+  size: 363, 458
+  orig: 363, 458
+  offset: 0, 0
+  index: -1
+
+ninja.pack29.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+JumpThrow2
+  rotate: false
+  xy: 2, 435
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+JumpThrow3
+  rotate: false
+  xy: 2, 2
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+JumpThrow4
+  rotate: false
+  xy: 364, 435
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+JumpThrow5
+  rotate: false
+  xy: 364, 2
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+
+ninja.pack30.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+JumpThrow6
+  rotate: false
+  xy: 2, 435
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+JumpThrow7
+  rotate: false
+  xy: 2, 2
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+JumpThrow8
+  rotate: false
+  xy: 364, 435
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1
+JumpThrow9
+  rotate: false
+  xy: 364, 2
+  size: 360, 431
+  orig: 360, 431
+  offset: 0, 0
+  index: -1

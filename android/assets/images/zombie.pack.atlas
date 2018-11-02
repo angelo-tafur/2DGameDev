@@ -1,0 +1,228 @@
+
+zombie.pack.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Attack (1)
+  rotate: false
+  xy: 319, 535
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Attack (2)
+  rotate: false
+  xy: 536, 535
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Attack (3)
+  rotate: false
+  xy: 753, 535
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Dead (1)
+  rotate: false
+  xy: 2, 532
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (10)
+  rotate: false
+  xy: 319, 270
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (11)
+  rotate: false
+  xy: 2, 267
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (12)
+  rotate: false
+  xy: 319, 5
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (2)
+  rotate: false
+  xy: 2, 2
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (3)
+  rotate: false
+  xy: 636, 270
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (4)
+  rotate: false
+  xy: 636, 5
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+
+zombie.pack6.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Attack (4)
+  rotate: false
+  xy: 319, 270
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Attack (5)
+  rotate: false
+  xy: 319, 8
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Attack (6)
+  rotate: false
+  xy: 536, 270
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Attack (7)
+  rotate: false
+  xy: 753, 270
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Attack (8)
+  rotate: false
+  xy: 536, 8
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Dead (5)
+  rotate: false
+  xy: 2, 532
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (6)
+  rotate: false
+  xy: 319, 532
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (7)
+  rotate: false
+  xy: 636, 532
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (8)
+  rotate: false
+  xy: 2, 267
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Dead (9)
+  rotate: false
+  xy: 2, 2
+  size: 315, 263
+  orig: 315, 263
+  offset: 0, 0
+  index: -1
+Walk (1)
+  rotate: false
+  xy: 753, 8
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+
+zombie.pack7.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Walk (10)
+  rotate: false
+  xy: 2, 526
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Walk (2)
+  rotate: false
+  xy: 2, 264
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Walk (3)
+  rotate: false
+  xy: 219, 526
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Walk (4)
+  rotate: false
+  xy: 2, 2
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Walk (5)
+  rotate: false
+  xy: 219, 264
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Walk (6)
+  rotate: false
+  xy: 436, 526
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Walk (7)
+  rotate: false
+  xy: 219, 2
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Walk (8)
+  rotate: false
+  xy: 436, 264
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1
+Walk (9)
+  rotate: false
+  xy: 653, 526
+  size: 215, 260
+  orig: 215, 260
+  offset: 0, 0
+  index: -1

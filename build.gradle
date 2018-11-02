@@ -1,0 +1,169 @@
+import com.badlogic.gdx.tools.texturepacker.TexturePacker
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        jcenter()
+    }
+    dependencies {
+        classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6'
+        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'org.robovm:robovm-gradle-plugin:1.8.0'
+        classpath "com.badlogicgames.gdx:gdx-tools:1.7.0"
+    }
+}
+
+allprojects {
+    apply plugin: "eclipse"
+    apply plugin: "idea"
+
+    version = '1.0'
+    ext {
+        appName = "Test -Game-LibGdx-01"
+        gdxVersion = '1.7.0'
+        roboVMVersion = '1.8.0'
+        box2DLightsVersion = '1.4'
+        ashleyVersion = '1.6.0'
+        aiVersion = '1.6.0'
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases/" }
+    }
+}
+
+project(":desktop") {
+    apply plugin: "java"
+
+
+    dependencies {
+        compile project(":core")
+        compile "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
+        compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+    }
+}
+
+project(":android") {
+    apply plugin: "android"
+
+    configurations { natives }
+
+    dependencies {
+        compile project(":core")
+        compile "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86"
+    }
+}
+
+project(":ios") {
+    apply plugin: "java"
+    apply plugin: "robovm"
+
+
+    dependencies {
+        compile project(":core")
+        compile "org.robovm:robovm-rt:$roboVMVersion"
+        compile "org.robovm:robovm-cocoatouch:$roboVMVersion"
+        compile "com.badlogicgames.gdx:gdx-backend-robovm:$gdxVersion"
+        compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-ios"
+    }
+}
+
+//project(":html") {
+//    apply plugin: "gwt"
+//    apply plugin: "war"
+//
+//
+//    dependencies {
+//        compile project(":core")
+//        compile "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion"
+//        compile "com.badlogicgames.gdx:gdx:$gdxVersion:sources"
+//        compile "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion:sources"
+//    }
+//}
+
+project(":core") {
+    apply plugin: "java"
+
+
+    dependencies {
+        compile "com.badlogicgames.gdx:gdx:$gdxVersion"
+
+        compile ('com.googlecode.json-simple:json-simple:1.1.1') {
+            exclude module: 'junit'
+        }
+    }
+
+    task packTextures {
+//        def pack = new File("${rootProject.getRootDir()}/android/assets/images/cutegirl.pack.png")
+//        def atlas = new File("${rootProject.getRootDir()}/android/assets/images/cutegirl.pack.atlas")
+        def ninja_pack = new File("${rootProject.getRootDir()}/android/assets/images/ninja.pack.png")
+        def ninja_atlas = new File("${rootProject.getRootDir()}/android/assets/images/ninja.pack.atlas")
+
+        def tiles_pack = new File("${rootProject.getRootDir()}/android/assets/images/tiles.pack.png")
+        def tiles_atlas = new File("${rootProject.getRootDir()}/android/assets/images/tiles.pack.atlas")
+
+        def zombie_pack = new File("${rootProject.getRootDir()}/android/assets/images/zombie.pack.png")
+        def zombie_atlas = new File("${rootProject.getRootDir()}/android/assets/images/zombie.pack.atlas")
+
+//        inputs.dir "${rootProject.getRootDir()}/core/rawAssets/sprites"
+//        outputs.file "${rootProject.getRootDir()}/android/assets/images/cutegirl.pack.png"
+//        outputs.file "${rootProject.getRootDir()}/android/assets/images/cutegirl.pack.atlas"
+
+        inputs.dir "${rootProject.getRootDir()}/core/rawAssets/ninja_sprites"
+        outputs.file "${rootProject.getRootDir()}/android/assets/images/ninja.pack.png"
+        outputs.file "${rootProject.getRootDir()}/android/assets/images/ninja.pack.atlas"
+
+        inputs.dir "${rootProject.getRootDir()}/core/rawAssets/zombie_sprites"
+        outputs.file "${rootProject.getRootDir()}/android/assets/images/zombie.pack.png"
+        outputs.file "${rootProject.getRootDir()}/android/assets/images/zombie.pack.atlas"
+
+        inputs.dir "${rootProject.getRootDir()}/core/rawAssets/tileSet/tiles"
+        outputs.file "${rootProject.getRootDir()}/android/assets/images/tiles.pack.png"
+        outputs.file "${rootProject.getRootDir()}/android/assets/images/tiles.pack.atlas"
+
+
+        doLast {
+//            pack.delete()
+//            atlas.delete()
+//            TexturePacker.process(
+//                    "${rootProject.getRootDir()}/core/rawAssets/sprites",
+//                    "${rootProject.getRootDir()}/android/assets/images",
+//                    "cutegirl.pack")
+
+            ninja_pack.delete()
+            ninja_atlas.delete()
+            TexturePacker.process(
+                    "${rootProject.getRootDir()}/core/rawAssets/ninja_sprites",
+                    "${rootProject.getRootDir()}/android/assets/images",
+                    "ninja.pack")
+
+            zombie_pack.delete()
+            zombie_atlas.delete()
+            TexturePacker.process(
+                    "${rootProject.getRootDir()}/core/rawAssets/zombie_sprites",
+                    "${rootProject.getRootDir()}/android/assets/images",
+                    "zombie.pack")
+
+            tiles_pack.delete()
+            tiles_atlas.delete()
+            TexturePacker.process(
+                    "${rootProject.getRootDir()}/core/rawAssets/tileSet/tiles",
+                    "${rootProject.getRootDir()}/android/assets/images",
+                    "tiles.pack")
+
+        }
+    }
+
+    project.tasks.compileJava.dependsOn packTextures
+
+}
+
+tasks.eclipse.doLast {
+    delete ".project"
+}
